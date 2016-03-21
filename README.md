@@ -1,7 +1,7 @@
 Serverless JS Config Plugin
 ===
 
-Allows the use of JS config files within the project, which are then compiled into JSON files for use by the Serverless Framework.
+Allows the use of JS based files within the project for configuration. These JS files are then compiled into JSON files for use natively by the Serverless Framework.
 
 **Note:** Requires Serverless v0.5.0 or higher.
 
