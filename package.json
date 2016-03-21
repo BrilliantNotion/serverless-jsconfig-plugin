@@ -4,7 +4,7 @@
   "engines": {
     "node": ">=4.3.0"
   },
-  "description": "Adds functionality to Serverless to monitor files for changes, and deploy automatically.",
+  "description": "Adds functionality to Serverless to use JS files for configuration.",
   "author": "Jordan Mack <tech+npm@brilliantnotion.com> (http://www.brilliantnotion.com/)",
   "license": "MIT",
   "repository": {
