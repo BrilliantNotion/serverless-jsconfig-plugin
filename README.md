@@ -1,12 +1,15 @@
 Serverless JS Config Plugin
 ===
 
+[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+[![npm version](https://badge.fury.io/js/serverless-jsconfig-plugin.svg)](https://badge.fury.io/js/serverless-jsconfig-plugin)
+
 Allows the use of JS based files within the project for configuration. These JS files are then compiled into JSON files for use natively by the Serverless Framework.
 
 **Note:** Requires Serverless v0.5.0 or higher.
 
 Setup
-===
+---
 
 * Install via npm in the root of your Serverless Project:
 ```
@@ -36,7 +39,7 @@ sls jsconfig build -o
 * All done!
 
 Common Pitfalls
-===
+---
 
 ### Chicken Egg Problem
 
