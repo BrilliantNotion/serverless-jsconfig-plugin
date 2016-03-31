@@ -30,7 +30,7 @@ plugins: [
 sls jsconfig convert
 ```
 
-* Edit your JS config files, then run the following command to build them into JSON files:
+* Edit your JS config files as needed. When you are done with your modification, run the following command to build them into JSON files:
 
 ```
 sls jsconfig build -o
