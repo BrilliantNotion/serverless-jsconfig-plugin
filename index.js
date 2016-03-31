@@ -358,6 +358,7 @@ module.exports = function(S)
 				try
 				{
 					data = require(filePath);
+					data = data(S);
 				}
 				catch(e)
 				{
@@ -385,7 +386,7 @@ module.exports = function(S)
 				data = JSON.stringify(data, null, indentation);
 			// File is JS.
 			else
-				data = "\"use strict\";\n\nmodule.exports =\n" + JSON.stringify(data, null, indentation) + ";";
+				data = "\"use strict\";\n\nvar output = " + JSON.stringify(data, null, indentation) + ";\n\nmodule.exports = function(S) {\n  return output;\n};";
 
 			// Write config file data.
 			fs.writeFileSync(filePath, data);
