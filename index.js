@@ -278,7 +278,7 @@ module.exports = function(S)
 						return;
 					}
 					
-					// Report status based on file existance.
+					// Report status based on file existence.
 					if(!fileExists)
 						SCli.log(chalk.green("Creating file:     ./" + outputConfigFile));
 					else
